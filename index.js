@@ -1,6 +1,6 @@
 const time = {
   name: "Time",
-  sql_name: "time precision",
+  sql_name: "time",
   fieldviews: {
     show: { isEdit: false, run: (s) => `${s}` },
     edit: {
