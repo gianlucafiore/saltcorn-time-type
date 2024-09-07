@@ -1,0 +1,16 @@
+{
+  "name": "saltcorn-time-type",
+  "version": "0.1.0",
+  "description": "hours and minutes",
+  "main": "index.js",
+  "dependencies": {
+    "@saltcorn/markup": "^0.2.1",
+    "@saltcorn/data": "^0.2.1"
+  },
+  "author": "Gianluca Fiore",
+  "license": "MIT",
+  "repository": "github:gianlucafiore/time-type",
+  "publishConfig": {
+    "access": "public"
+  }
+}
