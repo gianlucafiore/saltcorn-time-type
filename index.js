@@ -15,15 +15,6 @@ const time = {
   },
   read: (v) => {
     return v;
-    /*switch (typeof v) {
-      case "number":
-        return v;
-      case "string":
-        const parsed = parseFloat(v);
-        return isNaN(parsed) ? undefined : parsed;
-      default:
-        return undefined;
-    }*/
   },
 };
 
