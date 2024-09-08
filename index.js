@@ -8,13 +8,14 @@ const time = {
       run: (nm, v, attrs, cls) =>{
         console.log(v)
         return `<input type="time" class="form-control ${cls}" name="${nm}" id="input${nm}" ${
-          v || v === 0 ? `value="${v}"` : ""
+          v || v === 0 ? `value="'${v}'"` : ""
         }>`
       },
     },
   },
   read: (v) => {
-    switch (typeof v) {
+    return v;
+    /*switch (typeof v) {
       case "number":
         return v;
       case "string":
@@ -22,7 +23,7 @@ const time = {
         return isNaN(parsed) ? undefined : parsed;
       default:
         return undefined;
-    }
+    }*/
   },
 };
 
