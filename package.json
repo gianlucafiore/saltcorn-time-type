@@ -9,7 +9,7 @@
   },
   "author": "Gianluca Fiore",
   "license": "MIT",
-  "repository": "github:gianlucafiore/time-type",
+  "repository": "github:gianlucafiore/saltcorn-time-type",
   "publishConfig": {
     "access": "public"
   }
