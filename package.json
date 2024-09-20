@@ -1,6 +1,6 @@
 {
   "name": "saltcorn-time-type",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "hours and minutes",
   "main": "index.js",
   "dependencies": {
